@@ -1,0 +1,153 @@
+{
+  "nodes": {
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1648105061,
+        "narHash": "sha256-Je25qNlH4xrH3+m6vIq6yPvdfQ80FRTwX4JOhrRLduc=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "f1ec5e2f15b9f717c33b6942ce7cb344ff868522",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "github-liquid600pgm-nim-glm": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-glm-v1_1_1": "src-glm-v1_1_1"
+      },
+      "locked": {
+        "dir": "v1_1_1",
+        "lastModified": 1652367129,
+        "narHash": "sha256-ZzPsnRxNFZd8Auprs6e8bBZ+nlPw2Acqg6jJYx6hLAk=",
+        "owner": "nim-nix-pkgs",
+        "repo": "github-liquid600pgm-nim-glm",
+        "rev": "266ab7861d3f31fb914b434012c644e4cf08fa1b",
+        "type": "github"
+      },
+      "original": {
+        "dir": "v1_1_1",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "github-liquid600pgm-nim-glm",
+        "type": "github"
+      }
+    },
+    "github-nimgl-glfw": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-glfw-3_3_4": "src-glfw-3_3_4"
+      },
+      "locked": {
+        "dir": "3_3_4",
+        "lastModified": 1652367129,
+        "narHash": "sha256-XhLVrUL137cPV7/sOopCAvUJs1mNofWeR6qzriYiMrk=",
+        "owner": "nim-nix-pkgs",
+        "repo": "github-nimgl-glfw",
+        "rev": "a87bc87a3dd26016c4919b332558fa3cf83bfc86",
+        "type": "github"
+      },
+      "original": {
+        "dir": "3_3_4",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "github-nimgl-glfw",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 0,
+        "narHash": "sha256-BBeCZwZImtjP3oYy4WogkQYy5OxNyfNciVSc1AfZgLQ=",
+        "path": "/nix/store/z8fi1f38y14lmsyhnph1l98qr3r9x7wr-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flakeNimbleLib": "flakeNimbleLib",
+        "github-liquid600pgm-nim-glm": "github-liquid600pgm-nim-glm",
+        "github-nimgl-glfw": "github-nimgl-glfw",
+        "nixpkgs": "nixpkgs",
+        "src-aglet-master": "src-aglet-master"
+      }
+    },
+    "src-aglet-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1630403877,
+        "narHash": "sha256-hgMvDuI9lQycWNtAN0QcvIA7TcbfWUpHl2+PegbBeg8=",
+        "owner": "liquid600pgm",
+        "repo": "aglet",
+        "rev": "5c3312982359f53d3ba8aaf05b9a927333289d71",
+        "type": "github"
+      },
+      "original": {
+        "owner": "liquid600pgm",
+        "ref": "refs/heads/master",
+        "repo": "aglet",
+        "type": "github"
+      }
+    },
+    "src-glfw-3_3_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1587692428,
+        "narHash": "sha256-ZiGI8xJMIYhyUmbK7eHk8h5YaW7ii7X/TqTCeOkMEfE=",
+        "owner": "nimgl",
+        "repo": "glfw",
+        "rev": "4a46709a52c340091c5b96b5fc565cbb72c0b6c9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nimgl",
+        "ref": "refs/tags/3.3.4",
+        "repo": "glfw",
+        "type": "github"
+      }
+    },
+    "src-glm-v1_1_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1531609322,
+        "narHash": "sha256-a4WQWTkbBK7KRsxUJFBplAy4V81j3GZ1ekhLDz/qpUo=",
+        "owner": "liquid600pgm",
+        "repo": "nim-glm",
+        "rev": "c30414e241ad7fde9abc4f1dc7185268c4bbdbcd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "liquid600pgm",
+        "ref": "refs/tags/v1.1.1",
+        "repo": "nim-glm",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

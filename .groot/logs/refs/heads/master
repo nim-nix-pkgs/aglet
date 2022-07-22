@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 dff219133da35fe22e0adc8dba5c290a421ac0de hugosenari <hugosenari@gmail.com> 1656278211 -0300	clone: from github.com:nim-nix-pkgs/aglet.git
+dff219133da35fe22e0adc8dba5c290a421ac0de 10427da8c842575cea20d740859bfdadb396b64c hugosenari <hugosenari@gmail.com> 1656302908 -0300	commit: feat(nimpkgs): remove lock
+10427da8c842575cea20d740859bfdadb396b64c 1e3ca7a7ecaa2a41df05d2aaab3effa7128a2e54 hugosenari <hugosenari@gmail.com> 1656748383 -0300	commit: feat(nimpkgs): remove lock
+1e3ca7a7ecaa2a41df05d2aaab3effa7128a2e54 c240d72c5787d5ca8ee318748d63adcb9bccb0ec hugosenari <hugosenari@gmail.com> 1657154571 -0300	commit: feat(nimpkgs): remove lock
+c240d72c5787d5ca8ee318748d63adcb9bccb0ec 84bf06ff91921972c1eaf15f29db2bec479e78c5 hugosenari <hugosenari@gmail.com> 1658015154 -0300	commit: chore: re index aglet
+84bf06ff91921972c1eaf15f29db2bec479e78c5 aeff325ded68dae7758eea6c22d057604aeec1d0 hugosenari <hugosenari@gmail.com> 1658175218 -0300	commit: chore: re index aglet
+aeff325ded68dae7758eea6c22d057604aeec1d0 4208c2375d3fc08082659a52cd9ce160aa0c09e6 hugosenari <hugosenari@gmail.com> 1658208840 -0300	commit: feat(nimpkgs): remove lock
